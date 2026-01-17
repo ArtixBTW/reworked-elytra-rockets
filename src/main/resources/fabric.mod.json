@@ -1,0 +1,41 @@
+{
+    "schemaVersion": 1,
+    "id": "reworked-elytra-rockets",
+    "version": "${version}",
+    "name": "Reworked Elytra Rockets",
+    "description": "Reworks Elytra Rockets to not be overpowered",
+    "authors": [
+        "ArtixBTW"
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/FabricMC/fabric-example-mod"
+    },
+    "license": "MIT",
+    "icon": "assets/reworked-elytra-rockets/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "artixbtw.reworked_elytra_rockets.ReworkedElytraRockets"
+        ],
+        "client": [
+            "artixbtw.reworked_elytra_rockets.ReworkedElytraRocketsClient"
+        ],
+        "fabric-datagen": [
+            "artixbtw.reworked_elytra_rockets.ReworkedElytraRocketsDataGenerator"
+        ]
+    },
+    "mixins": [
+        "reworked-elytra-rockets.mixins.json",
+        {
+            "config": "reworked-elytra-rockets.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.18.4",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
