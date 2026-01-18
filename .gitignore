@@ -42,8 +42,6 @@ replay_*.log
 
 # direnv
 .direnv
-flake.nix
-flake.lock
 
 # jdt-ls
 .factorypath
