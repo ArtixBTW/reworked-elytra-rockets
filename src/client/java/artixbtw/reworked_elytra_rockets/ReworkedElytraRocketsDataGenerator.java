@@ -8,7 +8,8 @@ public class ReworkedElytraRocketsDataGenerator implements DataGeneratorEntrypoi
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		Pack pack = fabricDataGenerator.createPack();
-		pack.addProvider(ReworkedElytraRocketsRecipeProvider::new);
+		pack.addProvider(ReworkedElytraRocketsItemTagProvider::new);
 		pack.addProvider(ReworkedElytraRocketsModelProvider::new);
+		pack.addProvider(ReworkedElytraRocketsRecipeProvider::new);
 	}
 }

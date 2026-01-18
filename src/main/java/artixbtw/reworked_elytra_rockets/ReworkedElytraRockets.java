@@ -22,5 +22,6 @@ public class ReworkedElytraRockets implements ModInitializer {
 	public void onInitialize() {
 		CustomComponents.initialize();
 		CustomItems.initialize();
+		CustomTags.initialize();
 	}
 }
