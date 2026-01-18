@@ -26,7 +26,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"reworked-elytra-rockets" {
+		"reworked_elytra_rockets" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

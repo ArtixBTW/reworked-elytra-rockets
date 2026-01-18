@@ -1,6 +1,6 @@
 {
     "schemaVersion": 1,
-    "id": "reworked-elytra-rockets",
+    "id": "reworked_elytra_rockets",
     "version": "${version}",
     "name": "Reworked Elytra Rockets",
     "description": "Reworks Elytra Rockets to not be overpowered",
@@ -12,7 +12,7 @@
         "sources": "https://github.com/FabricMC/fabric-example-mod"
     },
     "license": "MIT",
-    "icon": "assets/reworked-elytra-rockets/icon.png",
+    "icon": "assets/reworked_elytra_rockets/icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
@@ -26,9 +26,9 @@
         ]
     },
     "mixins": [
-        "reworked-elytra-rockets.mixins.json",
+        "reworked_elytra_rockets.mixins.json",
         {
-            "config": "reworked-elytra-rockets.client.mixins.json",
+            "config": "reworked_elytra_rockets.client.mixins.json",
             "environment": "client"
         }
     ],

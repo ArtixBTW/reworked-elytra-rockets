@@ -7,7 +7,7 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.Identifier;
 
 public class ReworkedElytraRockets implements ModInitializer {
-	public static final String MOD_ID = "reworked-elytra-rockets";
+	public static final String MOD_ID = "reworked_elytra_rockets";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.

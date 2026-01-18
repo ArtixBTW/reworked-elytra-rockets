@@ -47,7 +47,7 @@ public class CustomComponents {
             }
 
             Component component = Component.translatable(
-                    "item.reworked-elytra-rockets.boost_rocket.cooldown_tooltip",
+                    String.format("item.%s.boost_rocket.cooldown_tooltip", ReworkedElytraRockets.MOD_ID),
                     useCooldown.seconds())
                     .withStyle(ChatFormatting.GRAY);
 

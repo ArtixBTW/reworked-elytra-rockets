@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "reworked-elytra-rockets:item/boost_rocket"
+    "layer0": "reworked_elytra_rockets:item/boost_rocket"
   }
 }
