@@ -1,10 +1,10 @@
 package artixbtw.reworked_elytra_rockets;
 
-import net.fabricmc.api.ModInitializer;
-import net.minecraft.resources.Identifier;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import net.fabricmc.api.ModInitializer;
+import net.minecraft.resources.Identifier;
 
 public class ReworkedElytraRockets implements ModInitializer {
 	public static final String MOD_ID = "reworked-elytra-rockets";
@@ -20,7 +20,7 @@ public class ReworkedElytraRockets implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		CustomComponents.initialize();
 		CustomItems.initialize();
 	}
-
 }

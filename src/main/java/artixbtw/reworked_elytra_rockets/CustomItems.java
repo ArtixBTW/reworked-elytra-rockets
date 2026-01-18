@@ -14,11 +14,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 
 public class CustomItems {
-    public static final Item BOOST_ROCKET = register(BoostRocketItem.IDENTIFIER, BoostRocketItem::new, BoostRocketItem.DEFAULT_PROPERTIES);
+    public static final Item BOOST_ROCKET = register(BoostRocketItem.IDENTIFIER, BoostRocketItem::new,
+            BoostRocketItem.DEFAULT_PROPERTIES);
 
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
-                .register(group -> group.addAfter(Items.ELYTRA, CustomItems.BOOST_ROCKET));
+                .register(group -> group.addBefore(Items.FIREWORK_ROCKET, CustomItems.BOOST_ROCKET));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT)
+                .register(group -> group.addBefore(Items.FIREWORK_ROCKET, CustomItems.BOOST_ROCKET));
     }
 
     public static <GenericItem extends Item> GenericItem register(
