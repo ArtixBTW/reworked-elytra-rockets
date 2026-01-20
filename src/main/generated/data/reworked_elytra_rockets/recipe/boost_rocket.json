@@ -4,12 +4,10 @@
   "ingredients": [
     "minecraft:paper",
     "minecraft:gunpowder",
-    "minecraft:turtle_scute",
-    "minecraft:ghast_tear",
-    "minecraft:chorus_fruit"
+    "minecraft:ghast_tear"
   ],
   "result": {
-    "count": 3,
+    "count": 2,
     "id": "reworked_elytra_rockets:boost_rocket"
   }
 }

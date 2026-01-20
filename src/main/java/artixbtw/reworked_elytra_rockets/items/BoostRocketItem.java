@@ -19,7 +19,7 @@ import net.minecraft.world.item.context.UseOnContext;
 
 public class BoostRocketItem extends FireworkRocketItem {
     private static final int STACK_SIZE = 16;
-    private static final int FLIGHT_DURATION = 3;
+    private static final int FLIGHT_DURATION = 1;
     private static final float USE_COOLDOWN_SECONDS = 25.0f;
 
     public static final Identifier IDENTIFIER = ReworkedElytraRockets.identifierFromPath("boost_rocket");

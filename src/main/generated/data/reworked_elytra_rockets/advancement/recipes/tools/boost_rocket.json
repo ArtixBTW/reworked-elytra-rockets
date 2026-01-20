@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "reworked-elytra-rockets:boost_rocket"
+        "recipe": "reworked_elytra_rockets:boost_rocket"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "reworked-elytra-rockets:boost_rocket"
+      "reworked_elytra_rockets:boost_rocket"
     ]
   }
 }

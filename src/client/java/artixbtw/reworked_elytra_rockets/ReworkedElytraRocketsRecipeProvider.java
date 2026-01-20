@@ -21,14 +21,10 @@ public class ReworkedElytraRocketsRecipeProvider extends FabricRecipeProvider {
         return new RecipeProvider(registryLookup, exporter) {
             @Override
             public void buildRecipes() {
-                // HolderLookup.RegistryLookup<Item> itemLookup = registries.lookupOrThrow(Registries.ITEM);
-
-                shapeless(RecipeCategory.TOOLS, CustomItems.BOOST_ROCKET, 3)
+                shapeless(RecipeCategory.TOOLS, CustomItems.BOOST_ROCKET, 2)
                         .requires(Items.PAPER)
                         .requires(Items.GUNPOWDER)
-                        .requires(Items.TURTLE_SCUTE)
                         .requires(Items.GHAST_TEAR)
-                        .requires(Items.CHORUS_FRUIT)
                         .unlockedBy(getHasName(Items.ELYTRA), has(Items.ELYTRA))
                         .save(output);
             }
