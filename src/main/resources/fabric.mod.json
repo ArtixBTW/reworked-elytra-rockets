@@ -8,8 +8,8 @@
         "ArtixBTW"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "homepage": "https://github.com/ArtixBTW/reworked-elytra-rockets",
+        "sources": "https://github.com/ArtixBTW/reworked-elytra-rockets"
     },
     "license": "MIT",
     "icon": "assets/reworked_elytra_rockets/icon.png",
