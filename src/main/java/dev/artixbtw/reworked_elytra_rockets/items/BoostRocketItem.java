@@ -1,11 +1,11 @@
-package artixbtw.reworked_elytra_rockets.items;
+package dev.artixbtw.reworked_elytra_rockets.items;
 
 import java.util.List;
 import java.util.function.Consumer;
 
-import artixbtw.reworked_elytra_rockets.CustomComponents;
-import artixbtw.reworked_elytra_rockets.CustomComponents.UseCooldownTooltip;
-import artixbtw.reworked_elytra_rockets.ReworkedElytraRockets;
+import dev.artixbtw.reworked_elytra_rockets.CustomComponents;
+import dev.artixbtw.reworked_elytra_rockets.CustomComponents.UseCooldownTooltip;
+import dev.artixbtw.reworked_elytra_rockets.ReworkedElytraRockets;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;

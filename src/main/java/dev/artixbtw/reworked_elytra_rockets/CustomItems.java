@@ -1,8 +1,8 @@
-package artixbtw.reworked_elytra_rockets;
+package dev.artixbtw.reworked_elytra_rockets;
 
 import java.util.function.Function;
 
-import artixbtw.reworked_elytra_rockets.items.BoostRocketItem;
+import dev.artixbtw.reworked_elytra_rockets.items.BoostRocketItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;

@@ -1,4 +1,4 @@
-package artixbtw.reworked_elytra_rockets;
+package dev.artixbtw.reworked_elytra_rockets;
 
 import java.util.function.Consumer;
 

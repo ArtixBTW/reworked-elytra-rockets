@@ -1,4 +1,4 @@
-package artixbtw.reworked_elytra_rockets;
+package dev.artixbtw.reworked_elytra_rockets;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

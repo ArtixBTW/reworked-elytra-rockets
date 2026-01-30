@@ -16,13 +16,13 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "artixbtw.reworked_elytra_rockets.ReworkedElytraRockets"
+            "dev.artixbtw.reworked_elytra_rockets.ReworkedElytraRockets"
         ],
         "client": [
-            "artixbtw.reworked_elytra_rockets.ReworkedElytraRocketsClient"
+            "dev.artixbtw.reworked_elytra_rockets.ReworkedElytraRocketsClient"
         ],
         "fabric-datagen": [
-            "artixbtw.reworked_elytra_rockets.ReworkedElytraRocketsDataGenerator"
+            "dev.artixbtw.reworked_elytra_rockets.ReworkedElytraRocketsDataGenerator"
         ]
     },
     "mixins": [

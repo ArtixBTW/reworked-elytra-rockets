@@ -1,6 +1,6 @@
 {
     "required": true,
-    "package": "artixbtw.reworked_elytra_rockets.mixin",
+    "package": "dev.artixbtw.reworked_elytra_rockets.mixin",
     "compatibilityLevel": "JAVA_21",
     "mixins": [
         "DisableVanillaFireworkRocketItemMixin"

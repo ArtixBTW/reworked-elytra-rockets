@@ -1,11 +1,11 @@
-package artixbtw.reworked_elytra_rockets.mixin;
+package dev.artixbtw.reworked_elytra_rockets.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import artixbtw.reworked_elytra_rockets.CustomTags;
+import dev.artixbtw.reworked_elytra_rockets.CustomTags;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
